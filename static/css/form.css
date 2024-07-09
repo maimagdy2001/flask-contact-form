@@ -1,0 +1,224 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.form1{
+    border: 1px solid black;
+    width: 845px;
+    height: 700px;
+    position: relative;
+    left: 270px;
+    top: 70px;
+}
+img{
+    width: 58px;
+    position: relative;
+    top: 20px;
+    left: 310px;;
+}
+.h1 {
+    color: #2cb580;
+    position: relative;
+    left: 365px;;
+    top: -50px;
+    text-transform: capitalize;
+    word-spacing: -10px;
+    font-weight: bolder;
+}
+.title{
+    width: 814px;
+    background-color: #ebfaf1;
+    height: 80px;
+    position: relative;
+    left: 16px;
+    top: -38px;
+}
+
+.h2{
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 22px;
+    
+}
+/*label{
+    position: relative;
+    font-weight: bolder;
+    left: 37px;
+    font-family: sans-serif;
+    font-weight: 600;
+    letter-spacing: 0px;
+    text-transform: capitalize;
+    top: -50px;
+}
+.f1{
+    top:0px
+}
+input{
+    width: 310px;
+    border-radius: 7px;
+    height: 41px;
+    porder-top: 32px;
+    margin-top: 8px;
+    position: relative;
+    left: 33px;
+    width: 775px;
+    top: -46px;
+    
+
+
+}
+.label{
+    position: relative;
+    font-weight: bolder;
+    left: 37px;
+    top: 0px;
+    width: 354px
+    border: 2px solid #b6bcc0;
+    outline-color: #b6bcc0;
+}
+.label1{
+    position: relative;
+    top: -74px;
+    left: 467px;
+}
+.inputlabel1{
+    position: relative;
+    top: -74px;
+    left: 465px;
+    width: 354px;
+}*/
+
+.first{
+    position: relative;
+    left: 55px;
+    top: -10px;
+    width: 250px;
+    height: 55px;
+}
+.first .l1{
+    position: relative;
+    left: 3px;
+    font-family: sans-serif;
+    font-weight: 600;
+    letter-spacing: 0px;
+    text-transform: capitalize;
+}
+.first .input1{
+    position: relative;
+    font-weight: bolder;
+    left: 0px;
+    top: 8px;
+    outline-color: #b6bcc0;
+    height: 45px;
+    width: 328px;
+    border: 2px solid #b6bcc0;
+    border-radius: 5px;
+}
+.last{
+    position: relative;
+    left: 445px;;
+    top: -44px;
+    width: 250px;
+    height: 55px;
+}
+.last .l2{
+    position: relative;
+    left: 1px;
+    top: -20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    letter-spacing: 0px;
+    text-transform: capitalize;
+}
+.last .input2{
+    position: relative;
+    font-weight: bolder;
+    left: 0px;
+    top: -13px;
+    outline-color: #b6bcc0;
+    height: 45px;
+    width: 350px;
+    border: 2px solid #b6bcc0;
+    border-radius: 5px;
+}
+.l3{
+    position: relative;
+    left: 55px;
+    font-family: sans-serif;
+    font-weight: 600;
+    letter-spacing: 0px;
+    text-transform: capitalize;
+    top: -48px;
+}
+.input3{
+    position: relative;
+    left: 55px;
+    top: -37px;
+    width: 740px;
+    outline-color: #b6bcc0;
+    height: 45px;
+    border: 2px solid #b6bcc0;
+    border-radius: 5px;
+}
+.l4{
+    position: relative;
+    left: 55px;
+    font-family: sans-serif;
+    font-weight: 600;
+    letter-spacing: 0px;
+    text-transform: capitalize;
+    top: -20px;
+}
+.input4{
+    position: relative;
+    left: 55px;
+    top: -10px;
+    width: 740px;
+    outline-color: #b6bcc0;
+    height: 45px;
+    border: 2px solid #b6bcc0;
+    border-radius: 5px;
+}
+.l5{
+    position: relative;
+    left: 55px;
+    font-family: sans-serif;
+    font-weight: 600;
+    letter-spacing: 0px;
+    text-transform: capitalize;
+    top: 2px;
+}
+.input5{
+    position: relative;
+    left: 55px;
+    top: 13px;
+    width: 740px;
+    outline-color: #b6bcc0;
+    height: 45px;
+    border: 2px solid #b6bcc0;
+    border-radius: 5px;
+}
+.confirm{
+    position: relative;
+    left: 55px;
+    top: 49px;
+    width: 750px;
+    outline-color: #b6bcc0;
+    height: 65px;
+    border: 2px solid #b6bcc0;
+    border-radius: 5px;
+    background-color: #23b574;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+::placeholder {
+    color: #bdc1c5;
+    opacity: 9;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    padding-left: 20px; 
+    font-weight: 600;
+    font-family: sans-serif
+}

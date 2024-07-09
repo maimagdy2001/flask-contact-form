@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/form.css') }}">
+</head>
+<body>
+    <div class="form1">
+        <img src="{{ url_for('static', filename='images/image.png') }}" alt="logo">
+        <h1 class="h1">your company</h1>
+        <div class="title">
+            <h1 class="h2"> contact customer support</h2>
+        </div>
+        <form id="contactForm" method="POST" action="{{ url_for('submit_form') }}">
+            <div class="first">
+            <label for="f"  class="l1"  >first name</label>
+            <br>
+            <input type="text"  class="input1" placeholder="first name" required id="f" name="first_name">
+            </div>
+            
+            <div class="last">
+            <label for="l" class="l2">last name</label >
+            <br>
+            <input type="text" class="input2" placeholder="last name" required id="l" name="last_name"> 
+            </div>
+            <br>
+            <label for="e" class="l3">email address</label>
+            <br>
+            <input type="email"  placeholder="email address" required id="e" class="input3" name="email">
+            <br>
+            <label for="p" class="l4">phone number</label>
+            <br>
+            <input type="number" placeholder="phone number" required id="p" class="input4" name="phone_number">
+            <br>
+            <label for="r" class="l5">reasson for contact</label>
+            <br>
+            <input type="text area" placeholder=" choose your reasson for contacting us" required id="r" class="input5" name="reason">
+            <br>
+            <input type="submit" value="content us" class="confirm" onclick="test()">
+            
+        </form>
+    </div>
+    <script src="form.js">
+    // contactForm.addEventListener("test", (e) => {
+        // e.preventDefault();
+        // /* const firstname = document.getElementById('f');
+        // console.log(firstname.value);
+        // const lastname = document.getElementById('l');
+        // console.log(lastname.value);
+        // const email = document.getElementById('e');
+        // console.log(email.value);
+        // const phonenumber = document.getElementById('p');
+        // console.log(phonenumber.value);
+        // const textarea = document.getElementById('r');
+        // console.log(textarea.value);*/
+        // function test(){
+        //     var first= document.getElementById("f").value;
+        //     var last = document.getElementById("l").value;
+        //     var email = document.getElementById("e").value;
+        //     var phone = document.getElementById("p").value;
+        //     var reason = document.getElementById("r").value; 
+
+        
+        //     var firs= localStorage.setItem("first",first);
+        //     var las= localStorage.setItem("last",last);
+        //     var emai= localStorage.setItem("email",email);
+        //     var phon= localStorage.setItem("phone",phone);
+        //     var reaso= localStorage.setItem("reason",reason);
+        // }
+        
+
+    // });
+
+    const contactForm = document.getElementById('contactForm')
+
+    contactForm.addEventListener("submit", (e) => {
+        e.preventDefault();
+        var first= document.getElementById("f").value;
+        var last = document.getElementById("l").value;
+        var email = document.getElementById("e").value;
+        var phone = document.getElementById("p").value;
+        var reason = document.getElementById("r").value; 
+
+        localStorage.setItem("first",first);
+        localStorage.setItem("last",last);
+        localStorage.setItem("email",email);
+        localStorage.setItem("phone",phone);
+        localStorage.setItem("reason",reason);
+    });
+    
+    </script>
+</body>
+</html>
+
+
